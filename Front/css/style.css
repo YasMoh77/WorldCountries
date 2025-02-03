@@ -1,0 +1,142 @@
+.spin{
+    height: 9vh;
+    width: 9vh;
+    border-width: .3vw;
+    display: inline-block;
+    color: #5f5d5d;
+}
+.spin-small{
+    height: 5vh;
+    width: 5vh;
+    border-width: .3vw;
+    color: #333030;
+}
+/*welcome*/
+.main-h1{
+    align-self: center;
+}
+select{
+    width: 20vw;
+}
+.refresh{
+    position: absolute;
+    right: 5.3vw;
+    top: 22vh;
+}
+.parent span:first-child{
+    cursor: pointer;
+}
+.parent{
+    min-height: 65vh;
+}
+.flex-continents h1,.flex-countries div{
+    background: #03A9F4;
+    width: calc(90% / 3);
+    height: 35vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    align-items: center;
+    border-radius: .5vw;
+}
+/**/
+.EuropeConts-parent{
+    min-height: 80vh;
+}
+.flex-countries div{
+    border: 1px solid #00d5ff;
+    background: #a2d5ee;
+    width: calc(90% / 5);
+    align-items: center;
+    font-size: large;
+}
+.btn-back{
+    height: 10vh;
+    align-self: center;
+    border: none;
+    font-size: large;
+}
+.names div{
+    color: blue;
+    margin-right: 3vw;
+}
+.inside-api-container{
+    justify-content: space-between;
+}
+.inside-api-container .left-right{
+ width: 25%;
+}
+.api-container .flex div{
+    font-size: 1.6vw;
+}
+.api-container .left{
+    width: 65%;
+    background: aliceblue;
+    padding: 1vh 1vw;
+}
+.left h1{
+    font-size: xxx-large;
+    text-transform: uppercase;
+}
+.api-container .left h4{
+    font-weight: normal;
+    color: crimson;
+}
+.api-container .right{
+    width: 30%;
+}
+.api-container .right img{
+    width: 100%;
+    height: 50vh;
+    border: 1px solid #afabab;
+    margin-bottom: 3vh;
+}
+.left-left{
+    color: #34a910;
+}
+.map a{
+    width: 100%;
+    border: 1px solid #b1a8a8;
+    background: #fff3e4;
+    display: block;
+    height: 50vh;
+    font-size: 3vw;
+    font-family: cursive;
+    letter-spacing: 1vw;
+    font-variant: small-caps;
+    align-content: center;
+    text-align: center;
+}
+h3 span,h4 span{
+    color: gray;
+    font-weight: normal;
+}
+.bottom-div{
+    height: 15vh;
+    justify-content: center;
+}
+.bottom-div h2{
+    align-self: center;
+}
+/* footer **/
+.footer{
+    height: 20vh;
+    align-items: center;
+}
+.footer p{
+    margin-top: 5vh;
+}
+.footer p:first-child{
+    flex: 3;
+    margin-left: 4vw;
+}
+.footer p:nth-child(2){
+    flex: 2;
+}
+/**/
+.bl-back{background: #2870a7;}
+.dark-bl-back{background: #1b0e6b;} .light-gr-back{background: #00ffa9;}
+.alone{display: block;} .none{display: none;}
+.w-fit{width: fit-content;}
+.pointer{cursor: pointer;}
